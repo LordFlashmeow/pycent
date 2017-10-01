@@ -3,7 +3,7 @@ class pycent:
         pass
 
     def percent_of(self, percent, whole):
-        return (percent * whole) * 100
+        return (percent * whole) / 100
 
     def percentage(self, part, whole):
         return 100 * float(part)/float(whole)
