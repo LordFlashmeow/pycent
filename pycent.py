@@ -26,7 +26,7 @@ class pycent:
         """
         return (percent * whole) / 100
 
-    def percentage(self, part: FloatIn, whole: FloatIn, resolution: int=2):
+    def percentage(self, part: FloatIn, whole: FloatIn, resolution: int=None):
         """Calculates the percentage of a number, given a part and a whole
         ie: 5 is what percent of 20 --> 25
 
@@ -48,4 +48,9 @@ class pycent:
         if whole == 0:
             raise ZeroDivisionError
 
-        return round(100 * float(part)/float(whole), resolution)
+        percent = 100 * float(part)/float(whole)
+		
+		if resolution:
+			return round(percent, resolution)
+		else:
+			return percent
