@@ -52,7 +52,4 @@ class pycent:
 
         percent = 100 * float(part)/float(whole)
         
-        if resolution:
-            return round(percent, resolution)
-        else:
-            return percent
+        return round(percent, resolution) if resolution is not None else percent
