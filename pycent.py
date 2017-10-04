@@ -24,6 +24,8 @@ class pycent:
         1.0
         
         """
+        percent = float(percent)
+        whole = float(whole)
         return (percent * whole) / 100
 
     def percentage(self, part: FloatIn, whole: FloatIn, resolution: int=None):
