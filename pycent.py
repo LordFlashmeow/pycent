@@ -28,14 +28,14 @@ class pycent:
         whole = float(whole)
         return (percent * whole) / 100
 
-    def percentage(self, part: FloatIn, whole: FloatIn, resolution: int=None):
+    def percentage(self, part: FloatIn, whole: FloatIn, resolution: int = None):
         """Calculates the percentage of a number, given a part and a whole
         ie: 5 is what percent of 20 --> 25
 
         Args:
             part (float): The part of a number
             whole (float): The whole of a number
-			resolution (integer): How many decimal points you want (Defaults to 2)
+            resolution (integer): How many decimal points you want (Defaults to 2)
 
         Returns:
             float: The percentage
@@ -51,8 +51,8 @@ class pycent:
             raise ZeroDivisionError
 
         percent = 100 * float(part)/float(whole)
-		
-		if resolution:
-			return round(percent, resolution)
-		else:
-			return percent
+        
+        if resolution:
+            return round(percent, resolution)
+        else:
+            return percent
