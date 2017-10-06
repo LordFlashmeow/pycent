@@ -1,0 +1,8 @@
+language: python
+python:
+  - 3.5
+  - 3.5
+  - nightly
+
+# Command to run tests
+script: python -m doctest -v pycent.py
