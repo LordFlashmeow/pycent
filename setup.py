@@ -9,5 +9,6 @@ setup(
     author_email='lordflashmeow@gmail.com',
     license='MIT',
     packages=['pycent'],
-    zip_safe=False
+    zip_safe=True,
+    keywords='percent percentage math'
 )
