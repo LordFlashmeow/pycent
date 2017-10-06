@@ -14,8 +14,7 @@ def percent_of(percent: FloatIn, whole: FloatIn):
         float: The value
         
     Example:
-    import pycent
-    >>> pycent.percent_of(25, 100)
+    >>> percent_of(25, 100)
     25.0
     >>> percent_of(5, 20)
     1.0
