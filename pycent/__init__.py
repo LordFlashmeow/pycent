@@ -1,8 +1,4 @@
-from typing import Union
-
-FloatIn = Union[int, float, str]
-
-def percent_of(percent: FloatIn, whole: FloatIn):
+def percent_of(percent, whole):
     """Calculates the value of a percent of a number
     ie: 5% of 20 is what --> 1
     
@@ -24,14 +20,14 @@ def percent_of(percent: FloatIn, whole: FloatIn):
     whole = float(whole)
     return (percent * whole) / 100
 
-def percentage(part: FloatIn, whole: FloatIn, resolution: int = None):
+def percentage(part, whole, resolution=None):
     """Calculates the percentage of a number, given a part and a whole
     ie: 5 is what percent of 20 --> 25
 
     Args:
         part (float): The part of a number
         whole (float): The whole of a number
-        resolution (integer): How many decimal points you want (Defaults to 2)
+        resolution (int): How many decimal points you want (Defaults to 2)
 
     Returns:
         float: The percentage
