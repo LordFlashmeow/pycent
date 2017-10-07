@@ -14,7 +14,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Topic :: Scientific/Engineering :: Mathematics'
         ],
-    keywords='percent percentage math'
+    keywords='percent percentage math',
     python_requires=">=3.5",
     packages=['pycent'],
     zip_safe=True,
