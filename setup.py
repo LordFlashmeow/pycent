@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='pycent',
-    version="0.1",
+    version="1.0",
     description='Calculate the percentage of a value, or the reverse',
     long_description=readme(),
     author='LordFlashmeow',
