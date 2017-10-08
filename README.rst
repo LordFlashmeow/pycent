@@ -4,6 +4,14 @@ pycent
 pycent is a simple module to quickly return the percentage of a value,
 or the reverse.
 
+
+Installation
+------------
+
+::
+    pip install pycent
+
+
 Usage
 -----
 
