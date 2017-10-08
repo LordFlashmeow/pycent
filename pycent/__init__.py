@@ -20,7 +20,7 @@ def percent_of(percent, whole):
     whole = float(whole)
     return (percent * whole) / 100
 
-def percentage(part, whole, resolution=None):
+def percentage(part, whole, resolution=2):
     """Calculates the percentage of a number, given a part and a whole
     ie: 5 is what percent of 20 --> 25
 
@@ -44,4 +44,4 @@ def percentage(part, whole, resolution=None):
 
     percent = 100 * float(part)/float(whole)
     
-    return round(percent, resolution) if resolution is not None else percent
+    return round(percent, resolution)
