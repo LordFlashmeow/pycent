@@ -1,9 +1,14 @@
 from setuptools import setup
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setup(
     name='pycent',
     version="0.1",
     description='Calculate the percentage of a value, or the reverse',
+    long_description=readme(),
     author='LordFlashmeow',
     author_email='lordflashmeow@gmail.com',
     url='http://github.com/LordFlashmeow/pycent',
