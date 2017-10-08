@@ -3,7 +3,8 @@ pycent
 .. image:: https://travis-ci.org/LordFlashmeow/pycent.svg?branch=master
     :target: https://travis-ci.org/LordFlashmeow/pycent
     
-.. image:: https://img.shields.io/github/license/mashape/apistatus.svg
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :target: https://img.shields.io/badge/license-MIT-blue
 
 pycent is a simple module to quickly return the percentage of a value,
 or the reverse.
