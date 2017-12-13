@@ -31,6 +31,8 @@ def percentage(part, whole, resolution=2):
 
     Returns:
         float: The percentage of a number
+        or
+        int: The percentage of a number (if resolution is zero or a negative number)
 
     Example:
     >>> percentage(10, 25)
@@ -44,4 +46,4 @@ def percentage(part, whole, resolution=2):
 
     percent = 100 * float(part)/float(whole)
     
-    return round(percent, resolution)
+    return round(percent, resolution) if resolution >=1 else int(percent)
