@@ -1,7 +1,7 @@
 pycent
 ======
-.. image:: https://travis-ci.org/Flashmeow/pycent.svg?branch=master
-    :target: https://travis-ci.org/Flashmeow/pycent
+.. image:: https://travis-ci.org/flashmeow/pycent.svg?branch=master
+    :target: https://travis-ci.org/flashmeow/pycent
     
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
     :target: https://img.shields.io/badge/license-MIT-blue
